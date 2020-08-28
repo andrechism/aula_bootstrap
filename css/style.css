@@ -1,0 +1,47 @@
+:root {
+    --preto: rgb(22, 22, 22);
+    --vermelho: rgb(80, 17, 17);
+}
+
+body {
+    font: 20px Arial, sans-serif;
+}
+
+.navbar {
+    background-color: var(--vermelho);
+}
+
+.quem-somos {
+    background-color: var(--preto);
+    color: white;
+}
+
+.quem-somos img {
+    margin: 4%;
+}
+
+.margin {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.galeria {
+    background-color: var(--vermelho);
+    color: white;
+}
+
+.contato {
+    background-color: var(--preto);
+    color: white;
+}
+
+footer {
+    border-top: 3px dashed var(--vermelho);
+    padding: 3% 2%;
+    font-size: 15px;
+}
+
+.bg-footer {
+    background-color: rgb(27, 25, 25);
+    color: white;
+}
